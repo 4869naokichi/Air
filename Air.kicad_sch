@@ -1836,23 +1836,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D3"
+				(at -0.3174 -3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
+			(property "Value" "POWER"
+				(at -2.8574 -3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1931,7 +1933,8 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 0 255 0 1)
 					)
 				)
 				(polyline
@@ -4111,6 +4114,1382 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D12"
+				(at -0.3174 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "AIR1"
+				(at -2.54 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D22"
+				(at -0.3174 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "AIR2"
+				(at -2.8574 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_2_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_3"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D32"
+				(at -0.3174 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "AIR3"
+				(at -2.8574 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_3_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 1)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_4"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D42"
+				(at -0.3174 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "AIR4"
+				(at -2.8574 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_4_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_4_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_5"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D52"
+				(at -0.3174 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "AIR5"
+				(at -2.8574 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_5_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_5_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_6"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D62"
+				(at -0.3174 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "AIR6"
+				(at -2.8574 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_6_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_6_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_7"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D72"
+				(at -0.3174 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "AIR7"
+				(at -2.8574 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_7_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_7_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_8"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D82"
+				(at -0.3174 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "AIR8"
+				(at -2.8574 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_8_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_8_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10110,7 +11489,7 @@
 		)
 		(uuid "5b532400-f2e0-4eac-849f-61a8538f4e60")
 	)
-	(global_label "USARTx_RX"
+	(global_label "VCP_RX"
 		(shape output)
 		(at 516.89 147.32 0)
 		(fields_autoplaced yes)
@@ -10122,7 +11501,7 @@
 		)
 		(uuid "01b9389c-2c5d-426b-85ce-95b6d67efdf6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 529.7402 147.32 0)
+			(at 526.9509 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10915,7 +12294,7 @@
 			)
 		)
 	)
-	(global_label "USARTx_TX"
+	(global_label "VCP_TX"
 		(shape input)
 		(at 516.89 149.86 0)
 		(fields_autoplaced yes)
@@ -10927,7 +12306,7 @@
 		)
 		(uuid "f694cdcc-e560-46a7-990d-b9a0b9e8a447")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 529.4378 149.86 0)
+			(at 526.6485 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11105,7 +12484,7 @@
 			(uuid "46394ec2-1c9a-41bc-aa6d-3389f7538505")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR030")
 					(unit 1)
@@ -11241,7 +12620,7 @@
 			(uuid "4b013c0f-7606-4f3f-adea-8d1a3963027a")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR048")
 					(unit 1)
@@ -11308,7 +12687,7 @@
 			(uuid "2c74ee80-b2eb-420f-8316-749efb115107")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR022")
 					(unit 1)
@@ -11445,7 +12824,7 @@
 			(uuid "20df9f6c-4cce-40ab-8e0e-55a104eb58ab")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR04")
 					(unit 1)
@@ -11511,7 +12890,7 @@
 			(uuid "6527859e-427f-4b2c-b786-92dd9217320d")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR021")
 					(unit 1)
@@ -11852,7 +13231,7 @@
 			(uuid "74ed9163-18e8-4183-b60c-0bacbf8268a0")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR028")
 					(unit 1)
@@ -11919,7 +13298,7 @@
 			(uuid "7f53bd51-1a11-4aa3-ba7c-491a3d0800e8")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR09")
 					(unit 1)
@@ -11985,7 +13364,7 @@
 			(uuid "491c617f-1085-4fcb-bf58-e3c9772c19bb")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#FLG06")
 					(unit 1)
@@ -12332,7 +13711,7 @@
 			(uuid "5e242e00-0f58-4891-997f-b5ec0e6d846d")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "C5")
 					(unit 1)
@@ -12466,7 +13845,7 @@
 			(uuid "27707ac8-27dd-4943-a769-fbdf796d719c")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR02")
 					(unit 1)
@@ -12669,7 +14048,7 @@
 			(uuid "837f93a3-1975-47e6-80b0-08f47cdf0b63")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR029")
 					(unit 1)
@@ -12738,7 +14117,7 @@
 			(uuid "9c62715b-6c14-42a2-846a-da7d54f37c5b")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "R2")
 					(unit 1)
@@ -12900,7 +14279,7 @@
 			(uuid "424c3773-85ec-40c7-8529-db089e2dbfbf")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "U12")
 					(unit 1)
@@ -13113,7 +14492,7 @@
 			(uuid "6770ba6d-e75b-42d6-b021-a82dc7debccd")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#FLG01")
 					(unit 1)
@@ -13447,7 +14826,7 @@
 			(uuid "059501e5-4c91-46ed-81e8-fc4aebbc493e")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR06")
 					(unit 1)
@@ -13585,7 +14964,7 @@
 			(uuid "73a7615d-c086-4c71-bc1d-5d26c31e8c5e")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "J1")
 					(unit 1)
@@ -13655,7 +15034,7 @@
 			(uuid "c8279a89-66e4-4884-bff0-4fa021eff189")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "D3")
 					(unit 1)
@@ -13790,7 +15169,7 @@
 			(uuid "2c9751b4-6a8c-4c9f-81ce-3c7b20931226")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#FLG05")
 					(unit 1)
@@ -14076,7 +15455,7 @@
 			(uuid "11fd5438-4e7a-4ea5-88e1-e9b24f9798e0")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "Q1")
 					(unit 1)
@@ -14216,7 +15595,7 @@
 			(uuid "4cb868c4-bd62-49df-a673-8e6c5b839b33")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "C9")
 					(unit 1)
@@ -14225,6 +15604,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_5")
 		(lib_id "Device:LED")
 		(at 335.28 -118.11 90)
 		(unit 1)
@@ -14567,7 +15947,7 @@
 			(uuid "878b0913-2f98-4214-8078-6665fa7b08e9")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR03")
 					(unit 1)
@@ -14576,6 +15956,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_3")
 		(lib_id "Device:LED")
 		(at 193.04 -118.11 90)
 		(unit 1)
@@ -14786,6 +16167,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_2")
 		(lib_id "Device:LED")
 		(at 121.92 -118.11 90)
 		(unit 1)
@@ -15333,7 +16715,7 @@
 			(uuid "d3299163-5316-4839-845d-eb23ba1ba36c")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "R13")
 					(unit 1)
@@ -15468,7 +16850,7 @@
 			(uuid "554283ed-86e0-49f7-a881-9b6443469a9a")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "J9")
 					(unit 1)
@@ -15534,7 +16916,7 @@
 			(uuid "7a15e449-bc98-432f-83b7-8414c149d7b0")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR049")
 					(unit 1)
@@ -15671,7 +17053,7 @@
 			(uuid "40a4eb49-713a-41d7-8073-20aeecbc76ae")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR027")
 					(unit 1)
@@ -15737,7 +17119,7 @@
 			(uuid "ddf8126c-5a73-4b6f-ac35-f6e7af22b707")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR047")
 					(unit 1)
@@ -15942,7 +17324,7 @@
 			(uuid "5e4891ed-206a-4f24-9cf6-016307e5e699")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR043")
 					(unit 1)
@@ -16078,7 +17460,7 @@
 			(uuid "901f52e2-33da-40c0-a8ce-1d3ee66691c4")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR044")
 					(unit 1)
@@ -16311,7 +17693,7 @@
 			(uuid "04e0c291-365d-4a54-94c6-9b6bbef755a5")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "U10")
 					(unit 1)
@@ -16444,7 +17826,7 @@
 			(uuid "b2707d49-57e1-49bc-8fe6-7000c51b5f64")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR0102")
 					(unit 1)
@@ -16647,7 +18029,7 @@
 			(uuid "da4fb527-43c7-41e6-867d-2b4cc2fabeee")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR046")
 					(unit 1)
@@ -16784,7 +18166,7 @@
 			(uuid "f45ee3ab-e9a0-4dda-86da-fb1b7aa61c09")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR01")
 					(unit 1)
@@ -16854,7 +18236,7 @@
 			(uuid "9e18874a-6de3-4a3c-aed2-fa36af102d78")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "R11")
 					(unit 1)
@@ -17277,7 +18659,7 @@
 			(uuid "faa49a2c-9b2b-4f21-81cd-cebb03513ff4")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "C2")
 					(unit 1)
@@ -17354,6 +18736,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_8")
 		(lib_id "Device:LED")
 		(at 548.64 -118.11 90)
 		(unit 1)
@@ -17558,7 +18941,7 @@
 			(uuid "cfd476fe-1052-4ebb-8ffe-ebc3d0c451f4")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "J12")
 					(unit 1)
@@ -17760,7 +19143,7 @@
 			(uuid "46859d9e-3fde-4234-b98a-40f009783b39")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "R12")
 					(unit 1)
@@ -17969,7 +19352,7 @@
 			(uuid "eb00c62d-317e-4210-aa48-e57930632324")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR045")
 					(unit 1)
@@ -18046,6 +19429,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_4")
 		(lib_id "Device:LED")
 		(at 264.16 -118.11 90)
 		(unit 1)
@@ -18283,7 +19667,7 @@
 			(uuid "f9195b45-109d-4e46-829e-00790bf6fa16")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "J10")
 					(unit 1)
@@ -18292,6 +19676,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_7")
 		(lib_id "Device:LED")
 		(at 477.52 -118.11 90)
 		(unit 1)
@@ -18637,7 +20022,7 @@
 			(uuid "5fd5d582-7a84-44e6-9f08-7f287dd93087")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "U1")
 					(unit 1)
@@ -18777,7 +20162,7 @@
 			(uuid "e1b0b3a6-5535-4df9-bfeb-e154b01f6a16")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "R3")
 					(unit 1)
@@ -18847,7 +20232,7 @@
 			(uuid "1068966c-29e4-45f9-859c-3b4d02b7040d")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "C1")
 					(unit 1)
@@ -19054,7 +20439,7 @@
 			(uuid "e2046bdf-0324-4f6a-b863-df993d40ce50")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "SW1")
 					(unit 1)
@@ -19130,6 +20515,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
 		(lib_id "Device:LED")
 		(at 50.8 -118.11 90)
 		(unit 1)
@@ -19190,7 +20576,7 @@
 			(uuid "4f91fd3e-7f1e-44f7-b3fd-d11276f0af47")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "D12")
 					(unit 1)
@@ -19440,7 +20826,7 @@
 			(uuid "a0dd8c77-2fb8-47be-8ae4-9eb81d6fb42b")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "J11")
 					(unit 1)
@@ -19506,7 +20892,7 @@
 			(uuid "1e85e746-a2bf-4d0d-82f3-3d6214eb792c")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR025")
 					(unit 1)
@@ -19573,7 +20959,7 @@
 			(uuid "082b4c02-641e-48ce-8ae3-8fd038360803")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR020")
 					(unit 1)
@@ -19776,7 +21162,7 @@
 			(uuid "a2e4c78b-e499-47e1-b41c-894292e3857b")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR010")
 					(unit 1)
@@ -19922,6 +21308,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_6")
 		(lib_id "Device:LED")
 		(at 406.4 -118.11 90)
 		(unit 1)
@@ -20187,7 +21574,7 @@
 			(uuid "cf9bef6d-a338-4551-a035-ebdaff18f3a7")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR05")
 					(unit 1)
@@ -20536,7 +21923,7 @@
 			(uuid "ee67b146-b41d-4c04-87d7-f07de4911247")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR026")
 					(unit 1)
@@ -20958,7 +22345,7 @@
 			(uuid "fb241f0f-f1e1-4d69-b3d4-d82191758f67")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "#PWR050")
 					(unit 1)
@@ -21028,7 +22415,7 @@
 			(uuid "b7521029-4125-4ad1-beeb-31e5725fd477")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "D11")
 					(unit 1)
@@ -21095,7 +22482,7 @@
 			(uuid "efbc4cda-262a-415b-a863-3b5fb039d53a")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "R5")
 					(unit 1)
@@ -21229,7 +22616,7 @@
 			(uuid "3c22855d-08d8-4adf-b853-3e038ee3e4a1")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "C10")
 					(unit 1)
@@ -21467,7 +22854,7 @@
 			(uuid "a195d4d6-dccb-42f9-810a-20072ff80d15")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "U11")
 					(unit 1)
@@ -21606,7 +22993,7 @@
 			(uuid "a723c5b5-9be3-45b8-8493-f0dc81e856c2")
 		)
 		(instances
-			(project ""
+			(project "Air"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
 					(reference "U9")
 					(unit 1)
